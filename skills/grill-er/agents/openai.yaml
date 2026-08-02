@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grill ER"
+  short_description: "追问决议后先落 ER，再落字段细节"
+policy:
+  allow_implicit_invocation: false
