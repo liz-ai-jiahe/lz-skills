@@ -6,22 +6,20 @@ Agent skill：先用追问把领域决议打稳，再落 `*-ER.puml`，最后落
 
 ## Install
 
-把下面命令里的 `<owner>` 换成你的 GitHub 用户名或组织名（推送仓库后）：
-
 ```bash
-npx skills add <owner>/grill-er --skill grill-er
+npx skills add liz-ai-jiahe/lz-skills --skill grill-er
 ```
 
 或：
 
 ```bash
-npx skills add https://github.com/<owner>/grill-er --skill grill-er
+npx skills add https://github.com/liz-ai-jiahe/lz-skills --skill grill-er
 ```
 
 列出仓库内 skill（不安装）：
 
 ```bash
-npx skills add <owner>/grill-er -l
+npx skills add liz-ai-jiahe/lz-skills -l
 ```
 
 ## Prerequisite
@@ -59,8 +57,8 @@ skills/
 
 ## Publish to skills.sh
 
-1. 将本仓库推到 **Public** GitHub  
-2. 分享安装命令：`npx skills add <owner>/grill-er --skill grill-er`  
+1. 将本仓库设为 **Public** GitHub  
+2. 分享安装命令：`npx skills add liz-ai-jiahe/lz-skills --skill grill-er`  
 3. [skills.sh](https://skills.sh) 会根据 CLI 安装 telemetry 自动收录（无需投稿；关闭 telemetry / CI 安装不计入排行）
 
 ## License
