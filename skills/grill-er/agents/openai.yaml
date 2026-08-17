@@ -1,5 +1,5 @@
 interface:
   display_name: "Grill ER"
-  short_description: "追问决议后先落 ER，再落字段细节"
+  short_description: "先 DDD 领域划分，再落 ER 骨架，字段细节才展开表"
 policy:
   allow_implicit_invocation: false
